@@ -1,10 +1,10 @@
 # Clarity News 📰  
 
-Clarity News is an advanced news aggregation system that scrapes daily articles from various news websites (currently one), providing concise insights through AI-powered summarization and sentiment analysis.  
+Clarity News is an news aggregation system that scrapes daily articles from various news websites (currently one), providing concise insights through AI-powered summarization and sentiment analysis.  
 
 ## 🔥 Features  
 
-- **Automated News Scraping**: Extracts top news articles from multiple sources using `Selenium`.  
+- **Automated News Scraping**: Extracts news articles from web news sources using `Selenium`.  
 - **AI-Powered Summarization**: Uses `facebook/bart-large-cnn` for generating concise summaries of news articles.  
 - **Sentiment Analysis**: Implements `facebook/bart-large-mnli` to classify news sentiment.  
 - **Fine-Tuning Experiments**: Evaluates performance of fine-tuned `facebook/bart-base` and `unsloth/Meta-Llama-3.1-8B` on secondary datasets.  
