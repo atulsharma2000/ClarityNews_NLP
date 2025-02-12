@@ -13,7 +13,7 @@ Clarity News is an news aggregation system that scrapes daily articles from vari
 
 ## 🚀 Tech Stack  
 
-- **Backend**: `Flask` (for API and application logic)  
+- **Web App**: `Flask`   
 - **Web Scraping**: `Selenium`  
 - **AI Models**: `Transformers`, `Torch`  
 - **Database**: `MySQL` (storing scraped news data)  
