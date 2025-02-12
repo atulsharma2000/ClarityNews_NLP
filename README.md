@@ -1,6 +1,6 @@
 # Clarity News 📰  
 
-Clarity News is an advanced news aggregation system that scrapes daily articles from various news websites, providing concise insights through AI-powered summarization and sentiment analysis.  
+Clarity News is an advanced news aggregation system that scrapes daily articles from various news websites (currently one), providing concise insights through AI-powered summarization and sentiment analysis.  
 
 ## 🔥 Features  
 
@@ -26,3 +26,38 @@ Clarity News is an advanced news aggregation system that scrapes daily articles 
 ```sh
 git clone https://github.com/your-username/Clarity-News.git
 cd Clarity-News
+```
+
+### 2️⃣ Install Dependencies  
+Ensure you have Python 3.8+ installed, then run:  
+```sh
+pip install -r requirements.txt
+```
+
+### 3️⃣ Set Up MySQL Database  
+Create a MySQL database and update your `config.py` with the credentials:  
+```python
+DB_CONFIG = {
+    "host": "localhost",
+    "user": "your_user",
+    "password": "your_password",
+    "database": "news_db",
+}
+```
+
+### 4️⃣ Run the Application  
+```sh
+python main.py
+```
+
+## 🎯 Future Enhancements  
+
+- Add support for multiple languages in summarization and sentiment analysis.  
+- Improve model performance with additional fine-tuning on diverse datasets.  
+- Develop a front-end dashboard for better user experience.  
+
+
+---
+
+⭐ **Star this repository** if you find it useful!  
+📩 Feel free to contribute and submit pull requests.  
