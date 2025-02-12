@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Clarity News 📰  
 
 Clarity News is an news aggregation system that scrapes daily articles from various news websites (currently one), providing concise insights through AI-powered summarization and sentiment analysis.  
@@ -61,3 +62,5 @@ python main.py
 
 ⭐ **Star this repository** if you find it useful!  
 📩 Feel free to contribute and submit pull requests.  
+=======
+>>>>>>> 5781b5c28bf7b5d15e62b95eb2edab7fa92c1c33
