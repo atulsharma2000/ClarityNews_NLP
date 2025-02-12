@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Clarity News 📰  
 
 Clarity News is an news aggregation system that scrapes daily articles from various news websites (currently one), providing concise insights through AI-powered summarization and sentiment analysis.  
@@ -44,6 +43,26 @@ DB_CONFIG = {
     "password": "your_password",
     "database": "news_db",
 }
+
+#  make your have done this
+CREATE DATABASE IF NOT EXISTS news_db;
+USE news_db;
+
+-- Create 'news' table
+CREATE TABLE IF NOT EXISTS news (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255),
+    link VARCHAR(255),
+    content LONGTEXT
+);
+
+-- Create 'summaries' table
+CREATE TABLE IF NOT EXISTS summaries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_text TEXT,
+    summary TEXT
+);
+
 ```
 
 ### 4️⃣ Run the Application  
@@ -63,4 +82,4 @@ python main.py
 ⭐ **Star this repository** if you find it useful!  
 📩 Feel free to contribute and submit pull requests.  
 =======
->>>>>>> 5781b5c28bf7b5d15e62b95eb2edab7fa92c1c33
+
