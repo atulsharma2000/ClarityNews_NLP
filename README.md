@@ -76,10 +76,11 @@ python main.py
 - Improve model performance with additional fine-tuning on diverse datasets.  
 - Develop a front-end dashboard for better user experience.  
 
+### Lil Video
+https://drive.google.com/file/d/1u8D1rM7NAdZF9awh77EvOLgikmIB1shK/view
 
 ---
 
 ⭐ **Star this repository** if you find it useful!  
-📩 Feel free to contribute and submit pull requests.  
 =======
 
