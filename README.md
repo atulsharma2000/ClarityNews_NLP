@@ -4,6 +4,8 @@ Clarity News is an news aggregation system that scrapes daily articles from vari
 #### Lil Video
 https://drive.google.com/file/d/1u8D1rM7NAdZF9awh77EvOLgikmIB1shK/view
 
+![alt text](image.png)
+
 ## 🔥 Features  
 
 - **Automated News Scraping**: Extracts news articles from web news sources using `Selenium`.  
